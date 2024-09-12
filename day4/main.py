@@ -1,0 +1,5 @@
+print("This is an adventure, I'm going to ask you for bunch of things before we start!")
+things_you_like = input("Tell me what do you like: ")
+things_to_pick = input("What do you want to take with you? ")
+print("So I know that you really like", things_you_like)
+print("and something you wanted to take with you was", things_to_pick)
