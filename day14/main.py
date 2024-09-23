@@ -10,8 +10,8 @@ while True:
         break
     elif player2_points == 3:
         break
-    player1_choice = input(f"{player1} - choose rock, paper, scissors (R,P,S): ").upper()
-    player2_choice = input(f"{player2} - choose rock, paper, scissors (R,P,S): ").upper()
+    player1_choice = getpass(f"{player1} - choose rock, paper, scissors (R,P,S): ").upper()
+    player2_choice = getpass(f"{player2} - choose rock, paper, scissors (R,P,S): ").upper()
     if player1_choice == player2_choice:
         print("It's a tie!")
     elif player1_choice == "R" and player2_choice == "S" or player2_choice == "P":
