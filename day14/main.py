@@ -6,9 +6,7 @@ player1_points = 0
 player2_points = 0
 
 while True:
-    if player1_points == 3:
-        break
-    elif player2_points == 3:
+    if player1_points == 3 or player2_points == 3:
         break
     player1_choice = getpass(f"{player1} - choose rock, paper, scissors (R,P,S): ").upper()
     player2_choice = getpass(f"{player2} - choose rock, paper, scissors (R,P,S): ").upper()
